@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jogo: Resistência Bacteriana</title>
+  <link rel="stylesheet" href="styles/styles.css">
+  <link rel="icon" href="assets/favicon.ico" type="image/x-icon">
+  <meta name="description" content="Teste seus conhecimentos sobre resistência bacteriana neste jogo educativo!">
+</head>
+<body>
+  <main id="game-container">
+    <header>
+      <h1>Jogo: Resistência Bacteriana</h1>
+    </header>
+    <section id="bacteria-info">
+      <p id="bacteria-name"></p>
+      <p id="bacteria-description"></p>
+    </section>
+    <section id="antibiotics-container">
+      <h2>Escolha um antibiótico:</h2>
+      <div id="antibiotics" aria-live="polite"></div>
+    </section>
+    <p id="result"></p>
+    <button id="next-bacteria" class="hidden">Próxima Bactéria</button>
+  </main>
+  <footer>
+    <p>&copy; 2024 Jogo Resistência Bacteriana</p>
+  </footer>
+  <script type="module" src="scripts/main.js"></script>
+</body>
+</html>
